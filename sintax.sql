@@ -18,9 +18,12 @@ select IdTrazabSuite, Nombre, N_Ordenador, Fecha, Accion, DatoNuevo from trazabs
 select IdTrazabSuite, Nombre, N_Ordenador, Fecha, Accion, DatoAntiguo, substring(DatoNuevo,18,21) from trazabsuite where DatoNuevo like '%755823%' and Accion regexp 'VAL|INV' 
 select * from idiomas
 select * from idiomas where Formulario like '%winProces%' 
-delete  from t_unidad_ord where N_Ordenador='hp'; 
+delete  from t_unidad_ord where N_Ordenador='THS1LTPRESTAMO'; 
 select * from reglas; 
 select * from reglasperfiles; 
+select * from hotsyncconfiguracion where nombreParametro like '%ETIMSS%'; 
+
+UPDATE hotsyncconfiguracion set valorParametro=1 where nombreParametro = 'ETIMSS'; 
 
 --Donantes aceptados---
 SELECT
