@@ -19,9 +19,8 @@ select IdTrazabSuite, Nombre, N_Ordenador, Fecha, Accion, DatoAntiguo, substring
 select * from idiomas
 select * from idiomas where Formulario like '%winProces%' 
 delete  from t_unidad_ord where N_Ordenador='hp'; 
-
-
-
+select * from reglas; 
+select * from reglasperfiles; 
 
 --Donantes aceptados---
 SELECT
