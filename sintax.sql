@@ -9,7 +9,7 @@ select * from t_unidad_ord;
 Select * from componentes where Familia ='H';
 Select * from componentes where Componentes='PCD';
 select * from pacientes where Apellidos like '%DEL CAMPO%' and Nombre like '%SYLVIA%'; 
-select IdTrazabSuite, Nombre, N_Ordenador, Fecha, Accion, DatoAntiguo, DatoNuevo from trazabsuite where DatoAntiguo like '%12608%' or DatoNuevo like '%12608%'  ;
+select IdTrazabSuite, Nombre, N_Ordenador, Fecha, Accion, DatoAntiguo, DatoNuevo from trazabsuite where DatoAntiguo like '%4527%' or DatoNuevo like '%4527%'  ;
 select * from 12608 
 Select * from  componentesisbt 
 select  name_code, count(id) as tot_isbt from  componentesisbt group by name_code order by tot_isbt desc
@@ -96,7 +96,7 @@ DELETE FROM `hemocod`.`comunicacion` WHERE  `IdComunicacion`=17599;
 DELETE FROM `hemocod`.`comunicacion` WHERE  `IdComunicacion`=17595;
 DELETE FROM `hemocod`.`comunicacion` WHERE  `IdComunicacion`=17594;
 DELETE FROM `hemocod`.`comunicacion` WHERE  `IdComunicacion`=17593;
-DELETE FROM `hemocod`.`t_unidad_ord` WHERE  `N_Ordenador`='3830303000-3030333131353337303030373600';
+DELETE FROM `hemocod_sp`.`t_unidad_ord` WHERE  `N_Ordenador`='LABCETS2';
 
 ----Bitácora de Donantes
 SELECT DISTINCT
