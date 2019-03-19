@@ -42,23 +42,23 @@ UPDATE hotsyncconfiguracion set valorParametro=1 where nombreParametro = 'ETIMSS
 
 INSERT INTO `
 INSERT INTO `diccionarioanalizadores` (`Analizador`, `Test`, `Resultados`, `ResultadosAnalizador`) VALUES ('EVOLIS', 'BMS19', 'S1901', 'POS');
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(18,'winFichaPacientes', 'lblLocalidadPaciente', 'Distrito', NULL); 
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(19,'winGestionPacientes', 'lblLocalidad', 'Distrito', NULL);
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(20,'winGestionPacientes', 'Localidad', 'Distrito', NULL);
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(21,'winPacientes', 'lblLocalidad', 'Distrito', NULL); 
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(22,'winPacientes', 'Localidad', 'Distrito', NULL); 
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(23,'winProcesoDona', 'lblLocalidad', 'Distrito', NULL); 
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(24,'winFichaDonantes', 'lblLocalidadDonante', 'Distrito', NULL);
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(25,'winCuestionarioValorizacion', 'lblLocalid', 'Distrito', NULL); 
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(26,'winFichaDonantes', 'lblMunicipioDonante', 'Distrito', NULL);
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(27,'winFichaPacientes', 'lblMunicipioPaciente', 'Distrito', NULL); 
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(28,'winCuestionarioValorizacion', 'lblMunicip', 'Distrito', NULL); 
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(29,'winGestionPacientes', 'lblMunicipio', 'Distrito', NULL);
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(30,'winFichaDonantes', 'lblMunicipioDonante', 'Distrito', NULL);
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(31,'winFichaPacientes', 'lblMunicipioPaciente', 'Distrito', NULL); 
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(32,'winCuestionarioValorizacion', 'lblMunicip', 'Distrito', NULL); 
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(33,'winGestionPacientes', 'lblMunicipio', 'Distrito', NULL); 
-INSERT INTO 'idiomaspersonalizados' ('ClaveId', 'Formulario', 'Objeto','Personalizado', 'PDA') Values(34,'winGestionColectas', 'lblLocalidad', 'Distrito', NULL); 
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(18,'winFichaPacientes', 'lblLocalidadPaciente', 'Distrito', NULL); 
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(19,'winGestionPacientes', 'lblLocalidad', 'Distrito', NULL);
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(20,'winGestionPacientes', 'Localidad', 'Distrito', NULL);
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(21,'winPacientes', 'lblLocalidad', 'Distrito', NULL); 
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(22,'winPacientes', 'Localidad', 'Distrito', NULL); 
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(23,'winProcesoDona', 'lblLocalidad', 'Distrito', NULL); 
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(24,'winFichaDonantes', 'lblLocalidadDonante', 'Distrito', NULL);
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(25,'winCuestionarioValorizacion', 'lblLocalid', 'Distrito', NULL); 
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(26,'winFichaDonantes', 'lblMunicipioDonante', 'Distrito', NULL);
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(27,'winFichaPacientes', 'lblMunicipioPaciente', 'Distrito', NULL); 
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(28,'winCuestionarioValorizacion', 'lblMunicip', 'Distrito', NULL); 
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(29,'winGestionPacientes', 'lblMunicipio', 'Distrito', NULL);
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(30,'winFichaDonantes', 'lblMunicipioDonante', 'Distrito', NULL);
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(31,'winFichaPacientes', 'lblMunicipioPaciente', 'Distrito', NULL); 
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(32,'winCuestionarioValorizacion', 'lblMunicip', 'Distrito', NULL); 
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(33,'winGestionPacientes', 'lblMunicipio', 'Distrito', NULL); 
+INSERT INTO idiomaspersonalizados (ClaveId, Formulario, Objeto, Personalizado, PDA) Values(34,'winGestionColectas', 'lblLocalidad', 'Distrito', NULL); 
 
 
 --Donantes aceptados---
